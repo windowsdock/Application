@@ -1,8 +1,6 @@
 using System;
 using System.Runtime.InteropServices;
 
-using Wok.ViewModels;
-
 namespace Wok.Views
 {
 	public partial class DockView
@@ -99,29 +97,6 @@ namespace Wok.Views
 		public DockView()
 		{
 			InitializeComponent();
-
-			vDock.DataContext = DockItems.Items;
-
-			//Process[] runningProcesses = Process.GetProcesses();
-
-			//foreach (Process runningProcess in runningProcesses)
-			//{
-			//	DockItem dockItem = new DockItem();
-			//	dockItem.Name = String.Format("{0}", runningProcess.ProcessName);
-			//	dockItems.Items.Add(dockItem);
-			//}
-
-			for (int i = 0; i < 4; i++)
-			{
-				//_DockItems.Items.Add(new DockItem { Name = String.Format("{0}", i) });
-			}
-
-			AddApp();
-		}
-
-		public void AddApp()
-		{
-			//_DockItems.Items.Add(new DockItem { Name = String.Format("{0}", 5) });
 		}
 	}
 }

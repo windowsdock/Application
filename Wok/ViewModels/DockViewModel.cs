@@ -24,9 +24,5 @@ namespace Wok.ViewModels
 	internal class DockViewModel
 	{
 		private DockItems DockItems = new DockItems();
-
-		public void AddApp()
-		{
-		}
 	}
 }
