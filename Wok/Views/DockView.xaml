@@ -52,7 +52,8 @@
 							IsItemsHost="True"
 							Orientation="Horizontal"
 							VerticalAlignment="Center"
-							Width="Auto" Height="85">
+							Width="Auto" Height="85"
+							cal:Bind.Model="DockViewModel">
 							<StackPanel.Resources>
 								<Style TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonRevealStyle}">
 									<Setter Property="Background" Value="Transparent" />
