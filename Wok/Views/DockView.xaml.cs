@@ -98,5 +98,10 @@ namespace Wok.Views
 		{
 			InitializeComponent();
 		}
+
+		private void InitializeComponent()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
