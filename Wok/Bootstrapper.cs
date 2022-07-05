@@ -1,7 +1,5 @@
-using Caliburn.Micro;
-
 using System.Windows;
-
+using Caliburn.Micro;
 using Wok.ViewModels;
 
 namespace Wok
