@@ -2,7 +2,5 @@ using System.Windows;
 
 namespace Wok
 {
-	public partial class App : Application
-	{
-	}
+	public partial class App : Application { }
 }

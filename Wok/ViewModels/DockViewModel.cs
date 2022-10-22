@@ -14,9 +14,7 @@ namespace Wok.ViewModels
 
 	public class DockItem
 	{
-		public DockItem()
-		{
-		}
+		public DockItem() { }
 
 		public string Name { get; set; }
 	}

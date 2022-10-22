@@ -89,10 +89,22 @@ namespace Wok.Views
 		private static extern bool ShowWindow(IntPtr hWnd, SW nCmdShow);
 
 		[DllImport("user32.dll", SetLastError = true)]
-		private static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int nHeight, bool bRepaint);
+		private static extern bool MoveWindow(
+			IntPtr hWnd,
+			int X,
+			int Y,
+			int nWidth,
+			int nHeight,
+			bool bRepaint
+		);
 
 		[DllImport("user32.dll", SetLastError = true)]
-		private static extern bool SystemParametersInfo(int uiAction, int uiParam, IntPtr pvParam, int fWinIni);
+		private static extern bool SystemParametersInfo(
+			int uiAction,
+			int uiParam,
+			IntPtr pvParam,
+			int fWinIni
+		);
 
 		public DockView()
 		{
