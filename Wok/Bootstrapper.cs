@@ -13,7 +13,7 @@ namespace Wok
 
 		protected override void OnStartup(object sender, StartupEventArgs e)
 		{
-			DisplayRootViewFor<DockViewModel>();
+			DisplayRootViewForAsync<DockViewModel>();
 		}
 	}
 }
