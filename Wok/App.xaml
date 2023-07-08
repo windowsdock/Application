@@ -8,7 +8,8 @@
 				<ResourceDictionary>
 					<local:Bootstrapper x:Key="Bootstrapper" />
 				</ResourceDictionary>
-				<ResourceDictionary Source="pack://application:,,,/FluentWPF;component/Styles/Controls.xaml" />
+				<ResourceDictionary
+					Source="pack://application:,,,/FluentWPF;component/Styles/Controls.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</Application.Resources>
