@@ -1,4 +1,7 @@
-﻿
+﻿using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Windows;
+
 [assembly: AssemblyTitle("Wok")]
 [assembly: AssemblyDescription("Dock for Windows")]
 [assembly: AssemblyConfiguration("")]
