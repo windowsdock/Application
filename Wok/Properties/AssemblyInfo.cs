@@ -5,7 +5,7 @@ using System.Windows;
 [assembly: AssemblyTitle("Wok")]
 [assembly: AssemblyDescription("Dock for Windows")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Playform LTD")]
+[assembly: AssemblyCompany("PlayForm LTD")]
 [assembly: AssemblyProduct("Wok")]
 [assembly: AssemblyCopyright("Copyright © 2022")]
 [assembly: AssemblyTrademark("")]
